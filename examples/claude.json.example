@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "experimental-notes": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@example/mcp-server-notes"
+      ],
+      "env": {
+        "NOTES_API_KEY": "${NOTES_API_KEY}"
+      }
+    }
+  }
+}
